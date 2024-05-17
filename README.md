@@ -4,7 +4,7 @@ Ecommerce platform with admin planel based on MERN stack and integrated payment 
 
 ## Installation
 
-1. clone the repo at you local
+1. clone the repo to your local
 
 ```
 
@@ -35,7 +35,7 @@ npm start
 
 ### Additional
 
-If while starting client you get this issue
+while starting client sever if you get this issue
 
 ```
 Error: digital envelope routines::unsupported
@@ -46,7 +46,7 @@ reason: 'unsupported',
 code: 'ERR_OSSL_EVP_UNSUPPORTED'
 ```
 
-Then change the script in package.json to
+Then change the script in package.json in client to
 
 ```
 "scripts": {
